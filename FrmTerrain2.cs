@@ -38,13 +38,7 @@ namespace EcoRedLine
         private void btInput_Click(object sender, EventArgs e)
         {
             OpenFileDialog dlg = new OpenFileDialog();
-
-            //过滤选择数据类型为.shp,其中：*.*代表全部文件，如果多个扩展名并列，用“|”隔开
             dlg.Filter = "tiff(*.tif)|*.tif";
-
-
-            //获取窗口对象中的文件路径，并将文件路径字符串赋值给文本框txt_InputShp
-            //this.txt_Input.Text = dlg.FileName;
             if (dlg.ShowDialog() == DialogResult.OK)
             {
                 this.txtInput.Text = dlg.FileName;
@@ -89,12 +83,6 @@ namespace EcoRedLine
             this.rtxtState.ScrollToCaret();
 
             #endregion
-
-            //string fileName = "地形地貌.mxd";
-            //axMapControl1.LoadMxFile(fileName);
-            ////将地图全屏最大化
-            //axMapControl1.Extent = axMapControl1.FullExtent;
-
 
 
             IVariantArray parameters = new VarArrayClass();
