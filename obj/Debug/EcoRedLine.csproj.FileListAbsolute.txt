@@ -26,3 +26,17 @@ D:\BaiduYunDownload\YNDQHP\EcoRedLine\obj\Debug\EcoRedLine.frmWaterSoilConservat
 D:\BaiduYunDownload\YNDQHP\EcoRedLine\obj\Debug\EcoRedLine.csproj.GenerateResource.Cache
 D:\BaiduYunDownload\YNDQHP\EcoRedLine\obj\Debug\EcoRedLine.dll
 D:\BaiduYunDownload\YNDQHP\EcoRedLine\obj\Debug\EcoRedLine.pdb
+C:\Users\tangmeng\Desktop\EcoRedLine-master\bin\Debug\EcoRedLine.dll
+C:\Users\tangmeng\Desktop\EcoRedLine-master\bin\Debug\EcoRedLine.pdb
+C:\Users\tangmeng\Desktop\EcoRedLine-master\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\tangmeng\Desktop\EcoRedLine-master\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\tangmeng\Desktop\EcoRedLine-master\obj\Debug\EcoRedLine.frmBiodiversity.resources
+C:\Users\tangmeng\Desktop\EcoRedLine-master\obj\Debug\EcoRedLine.frmFlood.resources
+C:\Users\tangmeng\Desktop\EcoRedLine-master\obj\Debug\EcoRedLine.frmGeoHazards.resources
+C:\Users\tangmeng\Desktop\EcoRedLine-master\obj\Debug\EcoRedLine.FrmTerrain2.resources
+C:\Users\tangmeng\Desktop\EcoRedLine-master\obj\Debug\EcoRedLine.frmWaterConervation.resources
+C:\Users\tangmeng\Desktop\EcoRedLine-master\obj\Debug\EcoRedLine.frmWaterSoilConservation.resources
+C:\Users\tangmeng\Desktop\EcoRedLine-master\obj\Debug\EcoRedLine.csproj.GenerateResource.Cache
+C:\Users\tangmeng\Desktop\EcoRedLine-master\obj\Debug\EcoRedLine.dll
+C:\Users\tangmeng\Desktop\EcoRedLine-master\obj\Debug\EcoRedLine.pdb
+C:\Users\tangmeng\Desktop\EcoRedLine-master\obj\Debug\EcoRedLine.Resource1.resources

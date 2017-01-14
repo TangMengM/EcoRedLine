@@ -4,11 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MyPluginEngine;
+using ESRI.ArcGIS.Controls;
+using ESRI.ArcGIS.Carto;
 
 namespace EcoRedLine
 {
     class EcoRedLineMenuBar : MyPluginEngine.IMenuDef
     {
+        //private MyPluginEngine.IApplication hk;
+        //private IPageLayout _Pagela = null;
+        //private IPageLayoutControlDefault _Pagelayout = null;
         #region IMenuDef 成员
         public string Caption
         {
@@ -24,7 +29,15 @@ namespace EcoRedLine
         {
             get { return 6; }
         }
-
+        //public void OnCreate(MyPluginEngine.IApplication hook)
+        //{
+        //    if (hook != null)
+        //    {
+        //        this.hk = hook;
+        //        _Pagelayout = this.hk.PageLayoutControl;
+        //        _Pagela = _Pagelayout.PageLayout;
+        //    }
+        //}
         public void GetItemInfo(int pos, MyPluginEngine.ItemDef itemDef)
         {
             switch (pos)

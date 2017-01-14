@@ -5,15 +5,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MyPluginEngine;
+using ESRI.ArcGIS.Controls;
 
 namespace EcoRedLine
 {
     class frmTerrainCmd : MyPluginEngine.ICommand
     {
-        private MyPluginEngine.IApplication hk;
+        private MyPluginEngine.IApplication hk;//定义hk，为空值
+        private IPageLayoutControl _PageLayoutControl = null;//定义IPageLayoutControl，为空值
+       
         private System.Drawing.Bitmap m_hBitmap;
         private ESRI.ArcGIS.SystemUI.ICommand cmd = null;
-        frmTerrain pfrmTerrain;
+        FrmTerrain2 pfrmTerrain;
 
         public frmTerrainCmd()
         {
@@ -73,17 +76,20 @@ namespace EcoRedLine
         public void OnClick()
         {
             //System.Windows.Forms.MessageBox.Show("正在开发中！");
-            pfrmTerrain = new frmTerrain();
+            pfrmTerrain = new FrmTerrain2(_PageLayoutControl);
             pfrmTerrain.ShowDialog();
         }
 
-        public void OnCreate(IApplication hook)
+        public void OnCreate(IApplication hook)//hook相当于主程序中定义，包含所有控件参数
         {
             if (hook != null)
             {
                 this.hk = hook;
-                pfrmTerrain = new frmTerrain();
+                this._PageLayoutControl = hk.PageLayoutControl as IPageLayoutControl;
+                
+                pfrmTerrain = new FrmTerrain2(_PageLayoutControl);
                 pfrmTerrain.Visible = false;
+                
             }
         }
 

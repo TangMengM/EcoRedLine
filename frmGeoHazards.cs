@@ -24,5 +24,10 @@ namespace EcoRedLine
             //去除图标
             this.ShowIcon = false;
         }
+
+        private void btnOK_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
