@@ -40,3 +40,15 @@ C:\Users\tangmeng\Desktop\EcoRedLine-master\obj\Debug\EcoRedLine.csproj.Generate
 C:\Users\tangmeng\Desktop\EcoRedLine-master\obj\Debug\EcoRedLine.dll
 C:\Users\tangmeng\Desktop\EcoRedLine-master\obj\Debug\EcoRedLine.pdb
 C:\Users\tangmeng\Desktop\EcoRedLine-master\obj\Debug\EcoRedLine.Resource1.resources
+E:\大理系统\EcoRedLine\bin\Debug\EcoRedLine.dll
+E:\大理系统\EcoRedLine\bin\Debug\EcoRedLine.pdb
+E:\大理系统\EcoRedLine\obj\Debug\EcoRedLine.frmBiodiversity.resources
+E:\大理系统\EcoRedLine\obj\Debug\EcoRedLine.frmFlood.resources
+E:\大理系统\EcoRedLine\obj\Debug\EcoRedLine.frmGeoHazards.resources
+E:\大理系统\EcoRedLine\obj\Debug\EcoRedLine.FrmTerrain2.resources
+E:\大理系统\EcoRedLine\obj\Debug\EcoRedLine.frmWaterConervation.resources
+E:\大理系统\EcoRedLine\obj\Debug\EcoRedLine.frmWaterSoilConservation.resources
+E:\大理系统\EcoRedLine\obj\Debug\EcoRedLine.Resource1.resources
+E:\大理系统\EcoRedLine\obj\Debug\EcoRedLine.csproj.GenerateResource.Cache
+E:\大理系统\EcoRedLine\obj\Debug\EcoRedLine.dll
+E:\大理系统\EcoRedLine\obj\Debug\EcoRedLine.pdb
